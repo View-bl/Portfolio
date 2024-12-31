@@ -1,19 +1,77 @@
-<header class="header">
-  <div class="container">
-    <nav class="nav">
-      <a class="nav-logo" href="./index.html" aria-label="Site logo">
-        <svg class="nav-logo-icon" width="100" height="30">
-          <use href="{=$icon-path}"></use>
-        </svg>
-      </a>
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-act}" href="./page-2.html">Page 2</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-curr}" href="./page-3.html">Page 3</a>
-        </li>
-      </ul>
-    </nav>
-  </div>
-</header>
+<div class="background-color">
+    <header class="header">
+        <div class="container container-header">
+            <div class="header-img">
+                <img class="header-image" src="../img/header-img/image2.jpg" alt="Profile image of Lloyd Jefferson"
+                    srcset="../img/header-img/image1.jpg 1x, ../img/header-img/image2.jpg 2x" />
+                <p class="header-jefferson">jefferson*</p>
+            </div>
+
+            <div class="menu-container">
+                <button class="menu_trigger" id="menu-toggle">
+                    <svg width="24" height="12" viewBox="0 0 24 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1.5 1.91666H22.5M1.5 10.0833H22.5" stroke="#FAFAFA" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </button>
+                <nav class="menu" id="mobile-menu">
+                    <a class="nav-link" href="#about-me">About me</a>
+                    <a class="nav-link" href="#benefits">Benefits</a>
+                    <a class="nav-link" href="#projects">Projects</a>
+                    <a class="nav-link" href="#faq">FAQ</a>
+                </nav>
+            </div>
+        </div>
+
+        <button type="button" class="button-header">Order the project</button>
+
+        <div class="modal-window">
+            <div class="modal-content">
+                <button class="modal-close" id="close-modal">
+                    <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <title>Close</title>
+                        <path d="M21 7L7 21" stroke="#FAFAFA" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path d="M7 7L21 21" stroke="#FAFAFA" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                </button>
+
+                <ul class="li-menu">
+                    <li class="link-modal-window"><a class="linki" href="#about-me">About me</a></li>
+                    <li class="link-modal-window"><a class="linki" href="#benefits">Benefits</a></li>
+                    <li class="link-modal-window"><a class="linki" href="#projects">Projects</a></li>
+                    <li class="link-modal-window"><a class="linki" href="#faq">FAQ</a></li>
+                </ul>
+                <button class="modal-button">Order the project</button>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero-section">
+        <div class="container hero-social">
+            <h1 class="header-hello">
+                Hello.<br />
+                I’m Fullstack developer<br />
+                Lloyd Jefferson.
+            </h1>
+            <ul class="social-networks-of-contacts">
+                <li class="social-networks">
+                    <a class="ig-fb-gi" href="https://www.instagram.com/goitclub/">IG</a>
+                </li>
+                <li class="social-networks">
+                    <a class="ig-fb-gi" href="https://www.facebook.com/goITclub/">FB</a>
+                </li>
+                <li class="social-networks">
+                    <a class="ig-fb-gi" href="https://www.youtube.com/c/GoIT">YT</a>
+                </li>
+                <li class="social-networks">
+                    <a class="ig-fb-gi" href="https://github.com/View-bl">GH</a>
+                </li>
+                <li class="email-social">
+                    <a class="email-mailto" href="mailto:lloydjefferson@gmail.com">lloydjefferson@gmail.com</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+</div>
